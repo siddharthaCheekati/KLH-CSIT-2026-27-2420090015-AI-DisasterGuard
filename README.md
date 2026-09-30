@@ -1,68 +1,66 @@
-# DisasterGuard – Disaster Management & Emergency Response System
+# DisasterGuard
 
-## Team Details
+## Disaster Management & Emergency Response Website
 
-**Team ID:** [14]
+DisasterGuard is a web-based project developed for the Adaptive Software Engineering course.
 
-**Team Members:** [N. Karthikeya] – [2420030616]
-[Ch. Siddhartha] – [2420090015]
-[B. Pranay] – [2420090108]
-[Y Mokshagna] – [2400090182]
+The main purpose of this project is to provide useful information and support during natural and man-made disasters such as floods, cyclones, earthquakes, fires, landslides and tsunamis.
 
-**Supervisor:** [Lavanya Madhu]
+## Features
 
-## Abstract
+- Information about different types of disasters
+- Safety instructions
+- Emergency contact details
+- Information about affected locations
+- Guidelines to follow before, during and after a disaster
+- Disaster incident reporting
+- Users can provide location, disaster type, description and photographs
 
-Disasters require quick and reliable decisions to protect people and reduce risks. **DisasterGuard** is an AI-powered disaster management and emergency response system that analyzes disaster-related data, identifies potential risks, and provides intelligent emergency response recommendations. The system adapts its recommendations according to changing disaster conditions and aims to support users in making faster and safer decisions during emergencies. The project demonstrates the application of **AI, Machine Learning, and Adaptive Software Engineering principles** in developing an intelligent emergency management solution.
+## How It Works
 
-## Project Overview
-
-The project aims to develop an intelligent disaster management system that analyzes disaster conditions and provides adaptive emergency recommendations to users.
-
-**Key Features:** AI-based disaster risk analysis, disaster severity prediction, hazard identification, emergency response recommendations, evacuation assistance, adaptive recommendations, emergency alerts, and map-based visualization.
+1. User opens the DisasterGuard website.
+2. User selects or views a disaster.
+3. The system displays related disaster information.
+4. Safety instructions and emergency details are shown.
+5. User can also report a disaster incident.
 
 ## Technologies Used
 
-Python (CPython), Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, FastAPI, HTML/CSS/JavaScript, PostgreSQL, VS Code, Git, GitHub, Docker.
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
+- Git
+- GitHub
 
-## Project Structure
+## Team Members
 
-`/backend` - Backend and API services
-`/frontend` - User interface
-`/models` - AI/ML models
-`/data` - Dataset references
-`/results` - Testing and analysis results
-`/reports` - Phase-wise reports
-`README.md` - Project documentation
+| Name | University ID |
+|---|---|
+| N. Karthikeya | 2420030316 |
+| B. Pranay | 2420090108 |
+| Ch. Siddhartha | 2420090015 |
+| Y. Mokshagna | 2400090182 |
+| R. Sai Sidhardha | 2400032486 |
 
-## Setup and Execution
+## Guide
 
-**Prerequisites:** Python, Git, PostgreSQL, Node.js *(if required)*
+**Lavanya Madhu**
 
-```bash
-git clone <repository-url>
-cd DisasterGuard
-pip install -r requirements.txt
-```
+## Course
 
-Create a `.env` file and add the required configuration or API credentials. Do not upload `.env` or API keys to GitHub.
+**Adaptive Software Engineering – 24CI3201**
 
-**Run the backend:**
+Academic Year: **2026–2027**
 
-```bash
-uvicorn main:app --reload
-```
+## Future Work
 
-## Current Phase Status
+- Improve disaster alerts
+- Add better location-based information
+- Improve incident reporting
+- Add more disaster-related information
+- Update the system according to changing requirements
 
-**Phase:** Initial Development / Phase 1
+## Project Status
 
-**Status:** Project setup, requirement analysis, initial system design, and technology selection completed. Development of the AI-based disaster analysis and emergency response modules is in progress.
-
-## Development Approach
-
-The project follows **Adaptive Software Engineering principles**, allowing the system to evolve based on changing requirements, testing results, and user feedback. Development will be carried out through regular iterations and progressive improvements.
-
-## Repository Guidelines
-
-All team members contribute using their own GitHub accounts. Meaningful commits are maintained throughout development. Phase deliverables are tagged appropriately. API keys, credentials, and confidential data are not stored in the repository. Project documentation and results are updated throughout each phase.
+The project is currently under development.
